@@ -159,7 +159,7 @@ namespace :hadoop do
     desc 'Format the cluster'
     task :format_hdfs, :roles => [:hadoop_master] do
       set :user, "#{g5k_user}"
-      run "#{tarball_destination}/hadoop-1.2.1/bin/hadoop namenode -format"
+      run "#{tarball_destination}/hadoop-1.2.1/bin/hadoop namenode -format -force"
     end
 
     desc 'Start the cluster'
