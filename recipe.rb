@@ -1,4 +1,4 @@
-set :hadoop_path, "#{recipes_path}/capi5k-hadoop"
+set :hadoop_path, "./"
 
 load "#{hadoop_path}/roles.rb"
 load "#{hadoop_path}/roles_definition.rb"

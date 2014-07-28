@@ -1,5 +1,5 @@
 # relative to the capfile
-set :recipes_path, "./xpm_modules"
+set :recipes_path, "./xpm_modules/"
 
 # Enable pretty output. Remove it if you want full logging
 #logger.level = Logger::IMPORTANT
